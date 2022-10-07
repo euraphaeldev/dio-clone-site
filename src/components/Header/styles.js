@@ -51,7 +51,7 @@ export const Menu = styled.a`
     font-size:12px;
     line-height: 25px;
     color: #FFFFFF;
-    margin-rigth: 12px;
+    margin-right: 12px;
     text-decoration: none;
 `
 export const MenuRight = styled.a`
@@ -60,7 +60,7 @@ export const MenuRight = styled.a`
     font-size:12px;
     line-height: 25px;
     color: #FFFFFF;
-    margin-rigth: 12px;
+    margin-right: 12px;
     text-decoration: none;
 `
 
