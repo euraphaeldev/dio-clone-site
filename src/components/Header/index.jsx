@@ -2,7 +2,7 @@ import React from 'react';
 import { Button } from "../Button";
 import logo from '../../assets/img/logo-dio.png';
 import { UserPicture } from './styles';
-
+import { useNavigate } from 'react-router-dom';
 import {
     BuscarInputContainer,
     Container,
@@ -14,11 +14,24 @@ import {
 } from "./styles";
 
 const Header = ({ autenticado }) => {
+
+    const navigate = useNavigate();
+
+    const handleClickHome = () => {
+        navigate('/');
+    }
+
+    const handleClickSignIn = () => {
+        navigate('/login');
+    }
+
     return (
         <Wrapper>
             <Container>
                 <Row>
-                    <img src={logo} alt='Logo da dio' />
+                    <a href=''>
+                        <img src={logo} alt='Logo da dio' onClick={handleClickHome}/>
+                    </a>
                     {autenticado ? (
                         <>
                             <BuscarInputContainer>
@@ -32,12 +45,12 @@ const Header = ({ autenticado }) => {
 
                 <Row>
                     {autenticado ? (
-                        <UserPicture src='https://avatars.githubusercontent.com/u/108998605?v=4'/>
+                        <UserPicture src='https://avatars.githubusercontent.com/u/108998605?v=4' />
                     ) : (
                         <>
-                        <MenuRight href='#'>Home</MenuRight>
-                        <Button title='ENTRAR' />
-                        <Button title='CADASTRAR' />
+                            <MenuRight href='/'>Home</MenuRight>
+                            <Button title='ENTRAR' onClick={handleClickSignIn} />
+                            <Button title='CADASTRAR' />
                         </>
                     )}
                 </Row>
