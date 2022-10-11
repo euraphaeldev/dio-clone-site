@@ -17,10 +17,6 @@ const Header = ({ autenticado }) => {
 
     const navigate = useNavigate();
 
-    const handleClickHome = () => {
-        navigate('/');
-    }
-
     const handleClickSignIn = () => {
         navigate('/login');
     }
