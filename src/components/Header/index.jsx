@@ -29,8 +29,8 @@ const Header = ({ autenticado }) => {
         <Wrapper>
             <Container>
                 <Row>
-                    <a href=''>
-                        <img src={logo} alt='Logo da dio' onClick={handleClickHome}/>
+                    <a href='/'>
+                        <img src={logo} alt='Logo da dio'/>
                     </a>
                     {autenticado ? (
                         <>
