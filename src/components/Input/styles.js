@@ -13,6 +13,7 @@ export const InputContainer = styled.div`
 
 export const IconContainer = styled.div`
     margin-right: 10px;
+    color: #8647ad;
 `
 
 export const InputText = styled.input`
