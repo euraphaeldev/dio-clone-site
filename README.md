@@ -19,6 +19,28 @@ Esse clone site foi criado com React, e utilizei algumas features como react-rou
 
 Aqui o destaque fica por conta dos percentuais que são dinamicos nas barras de progressão (na lateral direita do site):
 
+* Styled-Component 
+~~~
+export const Progress = styled.div`
+    width: 180px;
+    height: 6px;
+    background-color: #FFFFFF;
+    border-radius: 3px;
+    position: relative;
+    &::after {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: ${({percentual}) => percentual}%;
+        height: 6px;
+        border-radius: 3px;
+        background-color: #23DD7A;
+    }
+` 
+~~~
+
+* Aplicando na página o componente dinâmico
 ~~~
 <UserInfo nome="Raphael Alves" image="https://avatars.githubusercontent.com/u/108998605?v=4" percentual={65} />
 <UserInfo nome="Raphael Alves" image="https://avatars.githubusercontent.com/u/108998605?v=4" percentual={10} />
