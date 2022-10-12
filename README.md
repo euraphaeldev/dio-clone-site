@@ -31,6 +31,12 @@ Aqui o destaque fica por conta dos percentuais que são dinamicos nas barras de 
 
 ##
 
+## Projeto Finalizado
+
+https://user-images.githubusercontent.com/108998605/195229234-2b4106e4-ab38-486b-a5d1-a5d42ab4575d.mp4
+
+##
+
 ###
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
