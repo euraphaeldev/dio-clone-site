@@ -77,7 +77,7 @@ const Register = () => {
 
                             <Input name='password' errorMessage={errors?.password?.message} control={control} placeholder='Senha' type='password' leftIcon={<MdLock />} />
                             
-                            <Button title='ENTRAR' variant='secondary' type='submit' />
+                            <Button title='CADASTRAR' variant='secondary' type='submit' />
 
                             <PrivacyText> Ao clicar em "criar minha conta grátis", declaro que aceito as Políticas de Privacidade e os Termos de Uso da DIO.</PrivacyText>
                         </form>
