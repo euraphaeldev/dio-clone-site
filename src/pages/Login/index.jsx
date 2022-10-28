@@ -39,8 +39,6 @@ const Login = () => {
         mode: 'onChange',
     });
 
-    console.log(errors);
-
     const onSubmit = async formData => {
         try{
             const { data } = await api.get(`users?email=${formData.email}&senha=${formData.password}`);
