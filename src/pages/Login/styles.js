@@ -1,8 +1,8 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
-    width: 100%;
-    max-width: 80%;
+    max-width:1440px;
+   
     margin: 0 auto;
     margin-top 120px;
 
@@ -13,18 +13,25 @@ export const Container = styled.div`
 `
 
 export const Wrapper = styled.div`
-    max-width: 300px;
+    width: 368px;
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-end;
 `
+
+
 
 export const Colum = styled.div`
     flex: 1;
 `
+
 export const Row = styled.div`
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
     margin-top: 20px;
+    max-width: 268px;
 `
 
 export const Title = styled.h2`
@@ -45,6 +52,7 @@ export const TitleLogin = styled.p`
     font-size: 32px;
     margin-bottom: 20px;
     line-height: 44px;
+    width: 100%
 `
 
 export const SubLogin = styled.p`
@@ -67,13 +75,14 @@ export const EsqueciText = styled.p`
     color: #E5E044;
 `
 
-export const CriarText = styled.h2`
+export const CriarText = styled.a`
     font-family: "Open Sans";
     font-style: normal;
     font-weight: 700;
     font-size: 14px;
     margin-bottom: 35px;
     line-height: 19px;
+    cursor: pointer;
     
     color: #23dd7a;
 `

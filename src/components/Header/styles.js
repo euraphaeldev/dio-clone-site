@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
-    width:100%;
+    width: 1440px;
     max-width:80%;
     height: 47px;
 
@@ -57,7 +57,7 @@ export const Menu = styled.a`
 export const MenuRight = styled.a`
     font-family:'Open Sans';
     font-style: normal;
-    font-size:12px;
+    font-size: 18px;
     line-height: 25px;
     color: #FFFFFF;
     margin-right: 12px;
