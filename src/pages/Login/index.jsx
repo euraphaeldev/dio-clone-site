@@ -12,7 +12,7 @@ import { api } from '../../services/api'
 import {
     Container,
     Colum,
-    Colum2,
+    
     CriarText,
     EsqueciText,
     Row, 
