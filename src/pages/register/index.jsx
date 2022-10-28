@@ -1,6 +1,7 @@
 import {
     Container,
     Colum,
+    Colum2,
     CriarText,
     SubLogin,
     Title,
@@ -64,7 +65,7 @@ const Register = () => {
                         A plataforma para você aprender com experts, dominar as principais tecnologias e entrar mais rápido nas empresas mais desejadas.
                     </Title>
                 </Colum>
-                <Colum>
+                <Colum2>
                     <Wrapper>
                         <TitleLogin>Comece agora grátis</TitleLogin>
                         <SubLogin>Faça seu cadastro e make the change._</SubLogin>
@@ -85,7 +86,7 @@ const Register = () => {
                             <CriarText onClick={handleClickLogin}>Fazer Login</CriarText>
                         </Row>
                     </Wrapper>
-                </Colum>
+                </Colum2>
 
                 <Row>
 

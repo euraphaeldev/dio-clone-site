@@ -12,7 +12,7 @@ import { api } from '../../services/api'
 import {
     Container,
     Colum,
-    
+    Colum2,
     CriarText,
     EsqueciText,
     Row, 
@@ -67,7 +67,7 @@ const Login = () => {
                         A plataforma para você aprender com experts, dominar as principais tecnologias e entrar mais rápido nas empresas mais desejadas.
                     </Title>
                 </Colum>
-                <Colum>
+                <Colum2>
                     <Wrapper>
                         <TitleLogin>Já tem cadastro?</TitleLogin>
                         <SubLogin>Faça seu login e make the change._</SubLogin>
@@ -83,7 +83,7 @@ const Login = () => {
                             <CriarText onClick={handleClickSignIn}>Criar conta</CriarText>
                         </Row>
                     </Wrapper>
-                </Colum>
+                </Colum2>
 
                 <Row>
 

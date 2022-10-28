@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
-    max-width:1440px;
+    max-width: 960px;
    
     margin: 0 auto;
     margin-top 120px;
@@ -16,13 +16,22 @@ export const Wrapper = styled.div`
     width: 368px;
     display:flex;
     flex-direction: column;
-    justify-content: flex-end;
 `
-
-
 
 export const Colum = styled.div`
     flex: 1;
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 25px;
+    margin-right: 25px;
+`
+
+export const Colum2 = styled.div`
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 25px;
+    margin-left: 25px;
 `
 
 export const Row = styled.div`
